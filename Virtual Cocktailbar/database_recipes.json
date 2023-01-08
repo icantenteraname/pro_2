@@ -1,0 +1,191 @@
+{
+  "Apéro Paradisi": {
+    "name": "Apéro Paradisi",
+    "ingredients": "\t- 4 cl Ramazzotti Aperitivo Rosato\n\t- 4 cl Grepefruitsaft\n\t- 1 cl trockener Weisswein\n\t- 4 cl stilles Wasser\n\t- Basilikum\n- Eis",
+    "instructions": "In Apéroglas mit Eiswürfel Aperitivo Rosato, Grapefruitsaft dazugeben und mit Weisswein und Wasser gleichermassen auffüllen. Mit Basilikum garnieren.",
+    "description": "Apéro",
+    "tools": "keine"
+  },
+  "Prosecco Maracuja": {
+    "name": "Prosecco Maracuja",
+    "ingredients": "\t- 1 1/2 Passionsfrucht\n\t- 5 cl Ananassaft\n\t- 5 cl Mineralwasser\n\t- 10 cl Cassissirup\n\t- 10 cl Prosecco\n\t- 2 Zweige Zitronenmelisse\n- Crushed Ice",
+    "instructions": "Passionsfruchtmark mit einem Löffel auskratzen und in das Glas mit Crushed Ice geben. Fruchtfleisch mit Ananassaft und Mineralwasser vermischen. Langsam Sirup über einen Löffelrücken dazugeben. Zitronenmelisse mit Prosecco dazugeben.",
+    "description": "Apéro",
+    "tools": "Löffel"
+  },
+  "Hugo": {
+    "name": "Hugo",
+    "ingredients": "\t- 2 cl Holunderblütensirup\n\t- 16 cl Prosecco\n\t- 1/2 Limette\n\t- Minze\n- Eis",
+    "instructions": "Limette in Stücke schneiden, ausdrucken und ins Glas geben. Eiswürfel, Minzblätter und Holunderblütensirup ins Gals geben und mit Prosecco auffüllen.",
+    "description": "Apéro",
+    "tools": "Messer"
+  },
+  "Wild Berry Lillet": {
+    "name": "Wild Berry Lillet",
+    "ingredients": "\t- 5 cl Lillet\n\t- 10 cl Wild Berry Schweppes\n\t- Beeren\n- Eis",
+    "instructions": "Lillet in ein Glas mit Eis geben und mit Schweppes auffüllen. Zum Schluss mit Beeren garnieren.",
+    "description": "Apéro",
+    "tools": "keine"
+  },
+  "Mimosa": {
+    "name": "Mimosa",
+    "ingredients": "\t- 7 cl Champagner (oder Prosecco)\n\t- 7 cl Orangensaft\n- Triple Sec Likör (Orangenlikör)",
+    "instructions": "Champagner und Orangensaft in ein Glas geben und mit ein paar Spritzer Triple Sec Likör verfeinern.",
+    "description": "Apéro",
+    "tools": "keine"
+  },
+  "Bellini": {
+    "name": "Bellini",
+    "ingredients": "\t- 1/2 Pfirsich\n\t- 7 cl Prosecco\n- Pfirsichlikör",
+    "instructions": "Pfirsich im Mixer pürieren und ins Glas geben. Prosecco einfüllen und mit ein paar Spritzern Pfirsichlikör verfeinern.",
+    "description": "Apéro",
+    "tools": "Mixer"
+  },
+  "Lillet Rosé Zitrus": {
+    "name": "Lillet Rosé Zitrus",
+    "ingredients": "\t- 4 cl Lillet Rosé\n\t- 9 cl Zitronenlimonade\n\t- Minze\n- Eis",
+    "instructions": "Lillet und Zitronenlimonade in einem Shaker vermischen und mit Eis ins Glas geben. Zum Schluss mit Minze garnieren.",
+    "description": "Apéro",
+    "tools": "Shaker"
+  },
+  "Tequila Maracuja": {
+    "name": "Tequila Maracuja",
+    "ingredients": "\t- 1 1/2 Passionsfrucht\n\t- 5 cl Ananassaft\n\t- 5 cl Mineralwasser\n\t- 10 cl Cassissriup\n\t- 1/4 Limette\n\t- 3 cl Tequila\n\t- Minze\n- Crushed Ice",
+    "instructions": "Passionsfruchtmark mit einem Löffel auskratzen und in das Glas mit Crushed Ice geben. Fruchtfleisch mit Ananassaft und Mineralwasser vermischen. Langsam Sirup über einen Löffelrücken dazugeben. Tequila reinfüllen und Limettenschnitze ausdrücken und dazugeben. Mit Minze garnieren.",
+    "description": "Cocktail",
+    "tools": "Messer und Löffel"
+  },
+  "Cuba Libre": {
+    "name": "Cuba Libre",
+    "ingredients": "\t- 8 cl weisser Rum\n\t- 1 Limette\n\t- Cola\n- Eis",
+    "instructions": "Ein Glass mit Eiswürfeln füllen. Den Rum und den Limettensaft der ausgepressten Limette ins Glass geben und mit Cola auffüllen. Abschliessend mit einem Limettenschnitz garnieren.",
+    "description": "Cocktail",
+    "tools": "Messer"
+  },
+   "Amaretto Sour": {
+    "name": "Amaretto Sour",
+    "ingredients": "\t- 5cl Amaretto\n\t- 3 cl Zitronensaft\n\t- 2 cl Orangensaft\n- Eis",
+    "instructions": "Alle Zutaten in einem Shaker mit Eis kräftig mischen und durch ein Sieb in ein Glas mit neuem Eis abgiessen.",
+    "description": "Cocktail",
+    "tools": "Shaker und Sieb"
+  },
+  "Aperol Glühwein": {
+    "name": "Aperol Glühwein",
+    "ingredients": "\t- 15 cl Roséwein\n\t- 4 cl Aperol\n\t- 15 g Zucker\n\t- 1 Nelke\n\t- Vanille (Schote oder Pulver)\n- Rhabarber gefroren",
+    "instructions": "Rosé zusammen mit Zucker und Gewürzen in einem Topf erwärmen, gefrorene Rhabarber hinzugeben und bei mässiger Wärme etwas ziehen lassen. Zuletzt Aperol hinzufügen.",
+    "description": "Cocktail",
+    "tools": "Messer, Topf und Herdplatte"
+  },
+   "Mojito": {
+    "name": "Mojito",
+    "ingredients": "\t- 5 cl weisser Rum\n\t- 6 cl Citro\n\t- 1 Limette\n\t- 2 TL brauner Zucker\n\t- Minze\n- Crushed Ice",
+    "instructions": "Geachtelte Limette zusammen mit Zucker und Minze ins Glas geben (Tipp: Minze zuerst schlagen). Mit einem Stössel alles im Glas zerquetschen. Crushed Ice ins Glas geben, Rum dazu schütten und mit Soda auffüllen.",
+    "description": "Cocktail",
+    "tools": "Messer und Stössel"
+  },
+  "Caipirinha": {
+    "name": "Caipirinha",
+    "ingredients": "\t- 5 cl Cachaça\n\t- 2 TL Rohrzucker\n\t- 1 Limette\n- Eis",
+    "instructions": "Geachtelte Limette zusammen mit Zucker ins Glas geben (. Mit einem Stössel alles im Glas zerquetschen.\nGlas mit Eis füllen und Cachaça darüber leeren und mit einem Löffel umrühren.",
+    "description": "Cocktail",
+    "tools": "Messer, Stössel und Löffel"
+  },
+  "Long Island Ice Tea": {
+    "name": "Long Island Ice Tea",
+    "ingredients": "\t- 2 cl Vodka\n\t- 2 cl weisser Rum\n\t- 2 cl Tequila\n\t- 2 cl Gin\n\t- 2 cl Cointreau\n\t- 2 cl Limettensaft\n\t- 14 cl Cola\n- Eis",
+    "instructions": "Alle Zutaten in ein Glas mit Eis geben und umrühren.",
+    "description": "Cocktail",
+    "tools": "Löffel"
+  },
+  "Negroni": {
+    "name": "Negroni",
+    "ingredients": "\t- 3 cl Gin\n\t- 3 cl Campari\n\t- 3 cl roter Wermut\n\t- Eis\n- Orangenscheibe",
+    "instructions": "Alle Zutaten in ein Glas mit Eis füllen und umrühren. Mit halber Orangenscheibe garnieren.",
+    "description": "Cocktail",
+    "tools": "Messer und Löffel"
+  },
+  "Cosmopolitan": {
+    "name": "Cosmopolitan",
+    "ingredients": "\t- 1 cl Orangenlikör\n\t- 3 cl Vodka\n\t- 3 cl Cranberrysaft\n\t- 1 cl Limettensaft\n- Crushed Ice",
+    "instructions": "Alle Zutaten in einem Shaker kräftig mischen und in ein Glas mit Eis abgiessen. Zum Schluss mit Limette garnieren, wen von Bedarf.",
+    "description": "Cocktail",
+    "tools": "Shaker"
+  },
+  "Margarita": {
+    "name": "Margarita",
+    "ingredients": "\t- 3 cl Tequila\n\t- 1 cl Orangenlikör\n\t- 2 cl Limettensaft\n\t- Salz\n- Crushed Eis",
+    "instructions": "Das vorgekühlte Glas mit Limettensaft und Salz am Rand garnieren. Shaker mit Eis füllen, Zutaten dazu geben und kräftig schütteln. Drink durch ein Sieb ins Glas giessen.",
+    "description": "Cocktail",
+    "tools": "Shaker und Sieb"
+  },
+  "Tequila Sunrise": {
+    "name": "Tequila Sunrise",
+    "ingredients": "\t- 4 cl Tequila\n\t- 1 cl Zitronensaft\n\t- 11 cl Orangensaft\n\t- 1 cl Grenadine\n- Eis",
+    "instructions": "Alle Zutaten (ausser Grenadine) in Shaker mit Eis füllen und kräftig schütteln. Drink durch ein Sieb in ein Glas mit Eis füllen und Grenadine vorsichtig über einen Löffelrücken ins Glas leeren. Kann mit Zitronen-/Orangenscheibe garniert werden.",
+    "description": "Cocktail",
+    "tools": "Shaker, Sieb und Löffel"
+  },
+  "Sex on the Beach": {
+    "name": "Sex on the Beach",
+    "ingredients": "\t- 4 cl Vodka\n\t- 2 cl Pfirsichlikör\n\t- 4 cl Cranberrysaft\n\t- 6 cl Orangesaft\n- Eis",
+    "instructions": "Alle Zutaten (ausser Orangensaft) in einem Shaker mit Eis kräftig mischen und in ein Glas mit neuem Eis abgiessen (durch ein Sieb). Mit Orangensaft aufgiessen und bei Bedarf mit Orangen-/Ananasscheibe/Cocktailkirsche garnieren.",
+    "description": "Cocktail",
+    "tools": "Shaker und Sieb"
+  },
+  "Bloody Mary": {
+    "name": "Bloody Mary",
+    "ingredients": "\t- 6 cl Vodka\n\t- 15 cl Tomatensaft\n\t- 2 cl Zitronensaft\n\t- 2 Tropfen Worcestershire Sauce\n\t- 5 Tropfen Tabasco\n\t- Salz\n\t- Pfeffer\n- Eis",
+    "instructions": "Alle Flüssigkeiten in ein Glas mit Eis geben und mit Saucen und Gewürzen würzen. Mit einem Löffel gut umrühren und bei Bedarf mit einer Selleriestange garnieren.",
+    "description": "Cocktail",
+    "tools": "Löffel"
+  },
+  "Daiquiri": {
+    "name": "Daiquiri",
+    "ingredients": "\t- 5 cl weisser Rum\n\t- 3 cl Limettensaft\n\t- 1 cl Zuckersirup\n- Eis",
+    "instructions": "Alle Zutaten in einem Shaker mit Eis kräftig mischen und durch ein Sieb in ein vorgekühltes Glas abgiessen.\n\t (Tipp: Für fruchtige Daiquiris Zuckersirup mit Fruchtsirup ersetzen und pürierte Früchte hinzugeben).",
+    "description": "Cocktail",
+    "tools": "Shaker und Sieb"
+  },
+  "Applecake": {
+    "name": "Applecake",
+    "ingredients": "\t- 2 cl Vodka\n\t- 2 cl Apfelsaft\n\t- Rahm\n- Zimt",
+    "instructions": "Vodka und Apfelsaft in das Glas geben und mit Rahm eine Haube sprühen. Anschliessend Zimt über den Rahm streuen zur Dekoration.",
+    "description": "Shot",
+    "tools": "keine"
+  },
+  "Mini-Beer": {
+    "name": "Mini-Beer",
+    "ingredients": "\t- 3 cl Likör 43\n- 1 cl Rahm (oder  Milchschaum)",
+    "instructions": "Likör ins Glas geben und Rahm über einen Löffelrücken auf den Likör gleiten lassen.",
+    "description": "Shot",
+    "tools": "Löffel"
+  },
+  "Mad Dog": {
+    "name": "Mad Dog",
+    "ingredients": "\t- 3 cl Vodka\n\t- 1 cl Grenadine-Sirup\n- 4-5 Tropfen Tabasco",
+    "instructions": "Zuerst Grenadine ins Glas schütten und Tabasco reingeben. Vodka langsam über einen Löffelrücken ins Glas geben.",
+    "description": "Shot",
+    "tools": "Löffel"
+  },
+  "Fallen Froggie": {
+    "name": "Fallen Froggie",
+    "ingredients": "\t- 3 cl Melonenlikör\n\t- 1 cl Baileys\n- Grenadine",
+    "instructions": "Melonenlikör ins Gals füllen und Baileys über einen Löffelrücken langsam auf den Likör geben. Zum Schluss einige Tropfen Grenadine in den Shot tropfen lassen.",
+    "description": "Shot",
+    "tools": "Löffel"
+  },
+  "Wöschmaschine": {
+    "name": "Wöschmaschine",
+    "ingredients": "\t- 2 cl Blue Curacao\n- 2 cl Zitronensaft",
+    "instructions": "Blue Curacao und Zitronensaft in zwei separate Gläser geben. Zuerst wird der Blue Curacao in den Mund genommen und ohne zu schlucken anschliessend der Zitronensaft. Danach wird die Mischung im Mund vermischt (wie bei einer Mundspühlung).",
+    "description": "Shot",
+    "tools": "keine"
+  },
+  "Suuri Zunge": {
+    "name": "Suuri Zunge",
+    "ingredients": "\t- 1 cl Whisky\n\t- 1 cl Melonenlikör\n\t- 4 cl Orangensaft\n\t- 1 cl Limettensaft\n- Eis",
+    "instructions": "Melonenlikör, Limettensaft und Orangensaft mit Eis in einem Shaker schütteln. Mischung ins Glas füllen und Whisky langsam über einen Löffelrücken ins Glas fliessen lassen.",
+    "description": "Shot",
+    "tools": "Shaker und Löffel"
+  }
+}
