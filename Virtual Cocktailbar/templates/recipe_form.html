@@ -1,18 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Virtual Cocktailbar - Zutaten Form</title>
-</head>
-<body>
+{% include "header.jinja" %}
 <form method="POST">
   <div class="mb-3">
-    <label for="ingredients" class="form-label">Zutaten</label>
-    <input type="text" class="form-control" id="ingredients" name="ingredients">
+    <label for="new_name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="new_name" name="new_name">
   </div>
-  <button type="submit" class="btn btn-primary">Abschicken</button>
+  <div class="mb-3">
+    <label for="new_ingredients" class="form-label">Ingredients</label>
+    <input type="text" class="form-control" id="new_ingredients" name="new_ingredients">
+  </div>
+  <div class="mb-3">
+    <label for="new_instructions" class="form-label">Instructions</label>
+    <input type="text" class="form-control" id="new_instructions" name="new_instructions">
+  </div>
+  <div class="mb-3">
+    <label for="new_description" class="form-label">Description</label>
+    <input type="text" class="form-control" id="new_description" name="new_description">
+  </div>
+  <div class="mb-3">
+    <label for="new_tools" class="form-label">Tools</label>
+    <input type="text" class="form-control" id="new_tools" name="new_tools">
+  </div>
+  <button type="submit" class="btn btn-primary" name="safe">Submit</button>
 </form>
-
-<script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-</body>
-</html>
+{% include "footer.jinja" %}

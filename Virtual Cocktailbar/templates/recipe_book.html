@@ -1,0 +1,24 @@
+{% include "header.jinja" %}
+<table id="data" class="table table-striped" border="true">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Ingredients</th>
+        <th>Instructions</th>
+        <th>Description</th>
+        <th>Tools</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for item in data %}
+        <tr>
+            <td>{{item}}</td>
+            <td>{{data[item]['ingredients']}}</td>
+            <td>{{data[item]['instructions']}}</td>
+            <td>{{data[item]['description']}}</td>
+            <td>{{data[item]['tools']}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% include "footer.jinja" %}

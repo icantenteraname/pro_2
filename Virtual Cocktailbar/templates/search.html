@@ -1,0 +1,30 @@
+{% include "header.jinja" %}
+<form method="POST">
+  <div class="mb-3">
+    <label for="ingredients" class="form-label">Ingredients</label>
+    <input type="text" class="form-control" id="ingredients" name="ingredients">
+  </div>
+</form>
+<table id="data" class="table table-striped" border="true">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Ingredients</th>
+        <th>Instructions</th>
+        <th>Description</th>
+        <th>Tools</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for item in data %}
+        <tr>
+            <td>{{item}}</td>
+            <td>{{data[item]['ingredients']}}</td>
+            <td>{{data[item]['instructions']}}</td>
+            <td>{{data[item]['description']}}</td>
+            <td>{{data[item]['tools']}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% include "footer.jinja" %}
