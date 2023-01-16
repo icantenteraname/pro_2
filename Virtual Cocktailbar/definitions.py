@@ -27,6 +27,17 @@ def safe(name, ingredients, instructions, description, tools):
         json.dump(file_data, file, indent=2, ensure_ascii=False)  # convert back to JSON, 'Umlaute' not in ascii
     return
 
+def recipes_saved_open():  # hier wird die Datei mit den gespeicherten Rezepten geöffnet
+    try:
+        with open('database_recipes.json', 'r', encoding='utf-8') as database:
+            # Inhalt der Datenbank wird als Dictionary datenbank_vorschlaege gespeichert.
+            recipes_saved = json.load(database)
+    except:
+        # wenn kein Eintrag, wird es als leeres Dictionary gespeichert
+        recipes_saved = {}
+
+    return recipes_saved
+
 """
 def read_recipes(drink_name):
     with open("database_recipes.json") as csv_file:

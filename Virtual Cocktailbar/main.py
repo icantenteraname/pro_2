@@ -72,19 +72,6 @@ def chart():
     return render_template('evaluation.html', viz_div=div)
 
 
-# hier wird die Datei mit den gespeicherten Aktivitäten geöffnet
-def recipes_saved_open():
-    try:
-        with open('database_recipes.json', 'r', encoding='utf-8') as database:
-            # Inhalt der Datenbank wird als Dictionary datenbank_vorschlaege gespeichert.
-            recipes_saved = json.load(database)
-    except:
-        # wenn kein Eintrag, wird es als leeres Dictionary gespeichert
-        recipes_saved = {}
-
-    return recipes_saved
-
-
 @app.route("/search", methods=["GET", "POST"])
 def search():
     temp = data
