@@ -52,7 +52,8 @@ def chart():
     for _, entry in evaluation_saved.items():
         # name der Aktivität wird genommen und in Variable items umgewandelt
         entered_ingredient = entry.get("ingredient")
-        items = entered_ingredient.split(", ")
+        entered_ingredient = str(entered_ingredient)
+        items = entered_ingredient.split(",")
         # for loop für alle items wird ausgeführt
         for item in items:
             # wenn item schon in counts ist, dann wird die Anzahl des items um eins erhöht
