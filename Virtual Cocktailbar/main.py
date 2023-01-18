@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect
-import json
 import plotly.express as px
 import plotly
 import pandas as pd
@@ -45,32 +44,23 @@ def add_new_recipe():
 @app.route("/chart")
 def chart():
     list_of_ingredients = []  # every time my recipe book is visited this list is cleared
-    # hier wird die Funktion um die Datenbank zu öffnen, ausgeführt und die Daten werden umgewandelt, damit diese in einem Balkendiagramm aufgezeichnet werden
+
     evaluation_saved = recipes_saved_open()
-    # leeres Dictionary wird erstellt
+
     counts = {}
-    # for-loop für alle values
-    for _, entry in evaluation_saved.items():
-        # name der Aktivität wird genommen und in Variable items umgewandelt
+
+    for _, entry in evaluation_saved.items(): # for-loop for all values
         items = entry.get("description")
-        # entered_ingredient = str(entered_ingredient)
-        # items = entered_ingredient.split(",")
-        # for loop für alle items wird ausgeführt
-        for item in items:
-            # wenn item schon in counts ist, dann wird die Anzahl des items um eins erhöht
+        for item in items:  # for-loop for all items
             if item in counts:
-                counts[item] += 1
-            # wenn es das item noch nicht gibt, dann wird das item hinzugefügt und die Anzahl ist eins
+                counts[item] += 1  # number of items +1 in chart
             else:
-                counts[item] = 1
+                counts[item] = 1  # if item does not exist yet it gets added as 1
 
-    # counts Liste sieht so aus und diese werden dann in Balkendiagramm angezeigt
-    # counts = {'Wandern Calanda': 2, 'Wandern xyz': 10}
-    fig = px.bar(x=list(counts.keys()), y=list(counts.values()))
+    fig = px.bar(x=list(counts.keys()), y=list(counts.values()))  # definition of the axes
     # mit plotly.io.to_html wird die Grafik als div angezeigt.
-    div = plotly.io.to_html(fig, include_plotlyjs=True, full_html=False)
+    div = plotly.io.to_html(fig, include_plotlyjs=True, full_html=False)  # display of the diagram
 
-    # auswertung HTML wird angezeigt und div wird mitgegeben.
     return render_template('evaluation.html', viz_div=div, seitentitel="Evaluation")
 
 

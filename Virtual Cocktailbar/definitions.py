@@ -12,14 +12,8 @@ def safe(name, ingredients, instructions, description, tools):
 
 
 def recipes_saved_open():  # hier wird die Datei mit den gespeicherten Rezepten geöffnet
-    # try:
     with open('database_recipes.json', 'r', encoding='utf-8') as database:
-        # Inhalt der Datenbank wird als Dictionary datenbank_vorschlaege gespeichert.
         recipes_saved = json.load(database)
-    # except:
-        # wenn kein Eintrag, wird es als leeres Dictionary gespeichert
-        # recipes_saved = {}
-
     return recipes_saved
 
 
