@@ -6,7 +6,7 @@ def safe(name, ingredients, instructions, description, tools):
     with open("database_recipes.json", "r+", encoding="UTF-8") as file:
         file_data = json.load(file)  # load existing data
         file_data[name] = new_recipe  # add new dictionary entry
-        file.seek(0)  # Sets file's current position at offset otherwise the JSON update is only appendet at the end (assumption: seek sets the index to 0 and the data is filled up from index[0])
+        file.seek(0)  # sets file's current position at offset otherwise the JSON update is only appendet at the end (assumption: seek sets the index to 0 and the data is filled up from index[0])
         json.dump(file_data, file, indent=2, ensure_ascii=False)  # convert back to JSON, 'Umlaute' not in ascii
     return
 

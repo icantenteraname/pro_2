@@ -47,19 +47,21 @@ def chart():
 
     evaluation_saved = recipes_saved_open()
 
-    counts = {}
+    counts = {
+        "Apéro": 0,
+        "Cocktail": 0,
+        "Shot": 0,
+    }
 
-    for _, entry in evaluation_saved.items(): # for-loop for all values
+    for _, entry in evaluation_saved.items():  # for-loop for all values
         items = entry.get("description")
-        for item in items:  # for-loop for all items
-            if item in counts:
-                counts[item] += 1  # number of items +1 in chart
-            else:
-                counts[item] = 1  # if item does not exist yet it gets added as 1
+        if items in counts.keys():
+                counts[items] += 1  # number of items +1 in chart
 
     fig = px.bar(x=list(counts.keys()), y=list(counts.values()))  # definition of the axes
-    # mit plotly.io.to_html wird die Grafik als div angezeigt.
-    div = plotly.io.to_html(fig, include_plotlyjs=True, full_html=False)  # display of the diagram
+    fig.update_xaxes(title_text="Type of Recipe")
+    fig.update_yaxes(title_text="Number of Recipes")
+    div = plotly.io.to_html(fig, include_plotlyjs=True, full_html=False)  # display of the diagram with plotly.io.to_html
 
     return render_template('evaluation.html', viz_div=div, seitentitel="Evaluation")
 
@@ -74,7 +76,7 @@ def search():
             for ing in entered_ingredients:
                 list_of_ingredients.append(ing)  # entered ingredients is added to list with all user ingredients
             list_of_drinks = find_with_ingredient(data, list_of_ingredients)  # get list of all drinks with no more than the user ingredients
-            temp = data[data['name'].isin(list_of_drinks)]  # get the reducd database (every recipe with a name out of the list of drinks)
+            temp = data[data['name'].isin(list_of_drinks)]  # get the reduced database (every recipe with a name out of the list of drinks)
     return render_template('search.html', data=temp.transpose(), seitentitel="Search Recipe")  # display the reduced database
 
 
