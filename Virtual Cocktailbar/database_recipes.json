@@ -201,12 +201,5 @@
     "instructions": "Give all ingredients (6 cl whisky, 3 cl vermouth, 2 dashes of bitter liqueur) in a cooled martini glass.",
     "description": "Cocktail",
     "tools": "none"
-  },
-  "a": {
-    "name": "a",
-    "ingredients": "a",
-    "instructions": "a",
-    "description": "a",
-    "tools": "a"
   }
 }

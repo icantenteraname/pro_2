@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect
 import plotly.express as px
 import plotly
 import pandas as pd
-from definitions import safe, find_with_ingredient, recipes_saved_open
+from definitions import*
 
 data = pd.read_json('database_recipes.json')  # read JSON file
 data = data.transpose()  # swap rows and columns
@@ -17,6 +17,8 @@ list_of_ingredients = []
 @app.route("/")
 def my_recipe_book():
     list_of_ingredients = []  # every time my recipe book is visited this list is cleared
+    data = pd.read_json('database_recipes.json')  # read JSON file again with new recipe in it for adding new recipes
+    data = data.transpose()  # swap rows and columns for adding new recipes
     return render_template("recipe_book.html", data=data.transpose(), seitentitel="My Recipe Book")
 
 
@@ -35,9 +37,7 @@ def add_new_recipe():
             description = request.form.get("new_description")
             tools = request.form.get("new_tools")
             safe(name, ingredients, instructions, description, tools)  # recipe to JSON file
-            data = pd.read_json('database_recipes.json')  # read JSON file again with new recipe in it
-            data = data.transpose()  # swap rows and columns
-        return redirect("/add")
+        return redirect("/")
 
 
 # Evaluation

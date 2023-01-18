@@ -11,9 +11,9 @@ def safe(name, ingredients, instructions, description, tools):
     return
 
 
-def recipes_saved_open():  # hier wird die Datei mit den gespeicherten Rezepten geöffnet
+def recipes_saved_open():
     with open('database_recipes.json', 'r', encoding='utf-8') as database:
-        recipes_saved = json.load(database)
+        recipes_saved = json.load(database)  # database with recipes gets opened and converted into a dict
     return recipes_saved
 
 
